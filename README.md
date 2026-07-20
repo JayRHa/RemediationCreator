@@ -1,59 +1,22 @@
-<!-- unified-readme:start -->
+<!-- jr-brand:start -->
 <div align="center">
-
-# Remediation Creator Next
-
-**Modern Streamlit app to generate, review, and publish Microsoft Intune Endpoint Analytics detection and remediation scripts.**
-
-Create. Package. Remediate.
-
-[![GitHub stars](https://img.shields.io/github/stars/JayRHa/RemediationCreator?style=for-the-badge&logo=github&color=f4c542)](https://github.com/JayRHa/RemediationCreator/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/JayRHa/RemediationCreator?style=for-the-badge&logo=github&color=4078c0)](https://github.com/JayRHa/RemediationCreator/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/JayRHa/RemediationCreator?style=for-the-badge&logo=github&color=d73a4a)](https://github.com/JayRHa/RemediationCreator/issues)
-[![Contributors](https://img.shields.io/github/contributors/JayRHa/RemediationCreator?style=for-the-badge&logo=github&color=28a745)](https://github.com/JayRHa/RemediationCreator/graphs/contributors)
-
-![Remediation Creator Next](assets/generate.png)
-
-<p>
-  <a href="https://jannikreinhard.com/">Blog</a> ·
-  <a href="https://www.linkedin.com/in/jannik-r/">LinkedIn</a> ·
-  <a href="https://x.com/jannik_reinhard">X</a>
+  <a href="https://jannikreinhard.com/">
+    <img src="https://raw.githubusercontent.com/JayRHa/.github/main/assets/readme/tool.svg" alt="Jannik Reinhard — AI, Cloud and Endpoint Management" width="100%">
+  </a>
+  <h1>Remediation Creator</h1>
+  <p><strong>Tool for creating and managing Microsoft Intune Proactive Remediation script packages.</strong></p>
+  <p>
+  <a href="https://jannikreinhard.com/"><img src="https://img.shields.io/badge/Website-0A5FC0?style=flat-square&amp;logo=wordpress&amp;logoColor=white" alt="Website"></a>
+  <a href="https://github.com/JayRHa"><img src="https://img.shields.io/badge/GitHub-081427?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/jannik-r/"><img src="https://img.shields.io/badge/LinkedIn-0795FF?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+  <a href="https://x.com/jannik_reinhard"><img src="https://img.shields.io/badge/X-081427?style=flat-square&amp;logo=x&amp;logoColor=white" alt="X"></a>
+  <a href="https://www.youtube.com/@ModernDevMgmt/featured"><img src="https://img.shields.io/badge/YouTube-0A5FC0?style=flat-square&amp;logo=youtube&amp;logoColor=white" alt="YouTube"></a>
 </p>
-
----
-
-`Endpoint Management` | `Python` | `Public` | `Maintained`
-
+  <p><sub>Tool · App · CLI · Python · Practical by design</sub></p>
 </div>
+<!-- jr-brand:end -->
 
-## What is this?
-
-Remediation Creator Next supports Microsoft Intune and endpoint management workflows such as automation, troubleshooting, remediation, deployment, or reporting.
-
-## Project Context
-
-- Use it when Intune work should be scripted, packaged, synchronized, or made easier to repeat.
-- Most workflows start from repository assets, then move through Microsoft Graph, Intune, or device-side execution.
-- This repository is maintained as a practical project and reference asset.
-
-## How It Works
-
-The repository stores scripts or tooling, administrators configure or run them, Intune and Microsoft Graph apply the work, and endpoint results feed back into reports or follow-up actions.
-
-```mermaid
-flowchart LR
-    Repo[Repository assets] --> Admin[Administrator workflow]
-    Admin --> Graph[Microsoft Graph or Intune]
-    Graph --> Device[Managed endpoint]
-    Device --> Result[Detection, remediation, or report]
-    Result --> Review[Review and iterate]
-    Review --> Repo
-```
-
----
-<!-- unified-readme:end -->
-
-## Why this project
+## Why This Project
 
 Creating Intune remediation scripts manually is slow and repetitive.
 This app helps you:
@@ -63,7 +26,7 @@ This app helps you:
 - search an existing community script catalog and reuse good patterns
 - publish directly to Intune via Microsoft Graph payload
 
-## Current UI flow
+## Current UI Flow
 
 Tabs in the app:
 
@@ -72,7 +35,7 @@ Tabs in the app:
 3. `Review`
 4. `Publish`
 
-## UI screenshots
+## UI Screenshots
 
 ### Find Scripts
 
@@ -118,7 +81,7 @@ Tabs in the app:
 - Graph auth connect/disconnect
 - Upload to device health scripts endpoint
 
-## Key features
+## Key Features
 
 - Azure OpenAI and OpenAI provider support
 - GPT-5 model support with automatic Responses API routing
@@ -247,3 +210,15 @@ run.ps1
 ## License
 
 Apache 2.0
+
+<!-- jr-brand-footer:start -->
+
+---
+
+<div align="center">
+  <p><sub>Built and maintained by <a href="https://jannikreinhard.com/">Jannik Reinhard</a> · Microsoft MVP for Security and AI Platform.</sub></p>
+  <p><a href="https://www.buymeacoffee.com/jannikreinf">Support the open-source work</a></p>
+  <p><strong>Stay healthy, Cheers Jannik</strong></p>
+</div>
+
+<!-- jr-brand-footer:end -->
